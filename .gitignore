@@ -1,1 +1,63 @@
 aenv
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.env
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django-related
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+
+# Local settings
+settings_local.py
+.env
+
+# Django Migrations
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*_initial.py
+
+# Pytest, Coverage & Test reports
+.coverage
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+*.cover
+htmlcov/
+*.mo
+pytest_cache/
+junit.xml
+
+# Sphinx documentation
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# macOS & Linux system files
+.DS_Store
+*.swp
+*.swo
